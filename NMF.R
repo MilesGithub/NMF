@@ -30,8 +30,8 @@ load_packages <- function(pkg) {
 invisible(lapply(packages, load_packages))
 
 # --- Configuration ---
-expr_rds_file <- "D:/projects/TCGA/data/BRCA_mrna_df.rds"
-clinical_file <- "D:/projects/TCGA/immune_subtypes/data/NIHMS958212-supplement-2.csv"
+expr_rds_file <- "BRCA_mrna_df.rds"
+clinical_file <- "NIHMS958212-supplement-2.csv"
 
 # Define parameters
 study_filter <- "BRCA"
